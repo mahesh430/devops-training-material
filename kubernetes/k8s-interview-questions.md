@@ -280,3 +280,59 @@ A: This architecture depends upon application and many other factors. Following 
 In our setup, filebeat and journalbeat are running as daemonset. Logs collected by these are dumped to kafka topic which are eventually dumped to ELK stack. 
 
 Same can be achieved using EFK stack and fluentd-bit.  
+ 
+ 
+ 
+Kubernetes :
+==========================================
+1) what is taint and toleration 
+2) node affinity an pod affinity 
+3) how to check the logs of a pod or deployment?
+4) how to check how many pods are running
+5) what are deployment strategy used in your project
+6) what is init container
+7) what is statefullset
+8) what is ingress
+9) difference between headfull and headless service
+10) difference between secret and configmap
+11) what is livenessprobe and readynesspeobe
+12) how to access other pods in a cluster
+13) what is a pod
+14) how you will make sure that the database should start first and then application
+15) Types of storage class used in your project
+16) difference between statefullset and stateless
+17) describe kubernetes architecture
+18) difference between PV and pvc
+19) 2 containers are running inside a pod if one container goes down then will it affect other running container
+20)  Update the password in secret without restarting the pod or deployment ,is it possible ?
+21) how to rollback the deployment?
+22) what is the reason for pod eviction?
+22) pod is in pending state ,what are the possible reasons?
+23) how you will make sure that in rolling update strategy 2 pods are always available?
+24) crashloopbackoff, what are the possible reasons?
+25) why you are using 3 master node in production?
+26) how you will make sure that pod should be running on a specific node?
+27) how to check what are the activities performed by the container while creating the pod
+28) how to get the ip of a pod ?
+29) which network plugin you are using?
+30) how you are monitoring the kubernetes cluster and the containers
+31) Job should be terminated after 40 seconds ? ActiveDeadLineSeconds: 40
+
+==================================================================================
+DOCKER :
+=============================================================================================
+
+1) difference between add and copy ?
+2) difference between CMD and entry point ?
+3) ADD . .
+4) what is docker file ?
+5) how to check how many containers are running ?
+6) docker logging driver ?
+7) what is difference between bridge network and custom bridge network?
+8) difference between  overlay network and host network ?
+9) what is port forwarding in docker what is the use of it ? 
+10) how to login/enter to a container? 
+11) what is docker  system prune and docker image prune?
+12) how many types of volumes are there in Docker? (Local and network)
+13) How to check image vulnerabilty ?
+
